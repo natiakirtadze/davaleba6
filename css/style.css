@@ -1,0 +1,29 @@
+.bclass{
+	background-image: url(../pic/a1.jpg);
+	width: 100%;
+	height: 950px;
+	background-size: cover;
+	position: relative;
+}
+.b1{
+	width: 200px;
+	position: absolute;
+	top: 420px;
+	left: 950px;
+	animation: dragon 13s infinite;
+}
+.b2{
+	width: 200px;
+	position: absolute;
+	top: 150px;
+	left: 1200px;
+	animation: dracarys 10s infinite;
+}
+@keyframes dragon {
+	0% {left: 950px}
+	100% {left: 0px}
+}
+@keyframes dracarys {
+	0% {left: 1200px}
+	100% {left: 0px}
+}
